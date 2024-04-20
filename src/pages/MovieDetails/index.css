@@ -1,0 +1,22 @@
+.play-icon {
+  color: #fff;
+  font-size: 40px;
+}
+.play-icon:hover {
+  color: #da2f68;
+}
+@media screen and (min-width: 768px) {
+  .play-icon {
+    font-size: 50px;
+  }
+}
+.popup-content {
+  background: transparent;
+  border: none;
+  width: 100%;
+}
+@media screen and (min-width: 769px) {
+  .popup-content {
+    width: 800px;
+  }
+}

@@ -1,0 +1,15 @@
+.nav-search-icon {
+  font-size: 18px;
+  color: #fff;
+}
+.nav-search-icon:hover {
+  color: #da2f68;
+}
+@media screen and (min-width: 768px) {
+  .nav-search-icon {
+    font-size: 20px;
+  }
+}
+.link-style {
+  text-decoration: none;
+}
