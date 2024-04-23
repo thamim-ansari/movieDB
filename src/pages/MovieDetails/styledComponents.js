@@ -3,12 +3,15 @@ import {styled} from 'styled-components'
 export const MovieDetailsPageContainer = styled.div`
   background-color: #00010e;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 `
 export const MovieDetailsContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 80px;
+  flex-grow: 1;
   @media screen and (min-width: 768px) {
     padding-top: 120px;
   }
@@ -31,7 +34,7 @@ export const MovieImageAndDetailContainer = styled.div`
 `
 export const BackDropContainer = styled.div`
   width: 100%;
-  height: 100%;
+  height: 700px;
   position: absolute;
   top: 0;
   left: 0;
